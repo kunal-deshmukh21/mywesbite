@@ -1,0 +1,17 @@
+Flask
+gunicorn
+sqlalchemy
+
+
+
+database credentials
+
+hostname - aws.connect.psdb.cloud
+
+username - c2vzci0ybaxgf6o73hjr
+
+password - pscale_pw_8hH9onBh4v0kLQS5gyulcWPXgLzBYjGY3wKxYXstls0
+
+db name - mydatabase01
+
+cli command - mysql -h aws.connect.psdb.cloud -u c2vzci0ybaxgf6o73hjr -ppscale_pw_8hH9onBh4v0kLQS5gyulcWPXgLzBYjGY3wKxYXstls0 --ssl-mode=VERIFY_IDENTITY --ssl-ca=/etc/ssl/certs/ca-certificates.crt
